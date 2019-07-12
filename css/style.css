@@ -1,0 +1,141 @@
+@font-face {
+    src: url("../fonts/Verdana.ttf") format('ttf');
+    font-family: 'Verdana';
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+}
+
+.navbar .navbar-expand-lg .navbar-light .bg-light {
+    width: 100%;
+}
+
+.navbar-brand {
+    width: 60px;
+}
+
+.logo {
+    width: 100%;
+}
+
+a.nav-link {
+    text-transform: uppercase;
+}
+
+div.carousel-inner {
+
+}
+
+.align-c {
+    text-align: center;
+}
+
+.main-block-heading {
+    padding: 100px;
+}
+
+.column-padding {
+    padding: 50px;
+}
+
+.emblema-container {
+    width: 100%;
+}
+
+h2.font-40 {
+    font-size: 40px;
+}
+
+.padding-b-h3 {
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.zno-container-text {
+    text-align: center;
+    margin: 0;
+}
+
+.zno-container-pad {
+    padding-bottom: 50px;
+}
+
+.cost-container {
+    padding-bottom: 50px;
+}
+
+.cost-container-text {
+    text-align: center;
+    margin: 0;
+}
+
+.footer-text-phone {
+    margin: 0;
+}
+
+@media screen and (max-width: 760px) {
+    footer div.row {
+        display: flex;
+        flex-direction: column;
+    }
+    footer div.row div.col-8, footer div.row div.col-4{
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    footer div.row div.col-8 img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 690px) {
+    .specialization .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .specialization .row div.col-6.column-padding{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-top: 0;
+    }
+}
+@media screen and (max-width: 600px) {
+   h2.main-block-heading.align-c {
+       font-size: 25px;
+       padding: 50px;
+   }
+    .padding-b-h3{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 360px) {
+.zno-container-pad .row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .zno-container-pad .row div.col-4{
+        padding: 0 0 20px 0;
+        flex: 0 0 60%;
+        max-width: 60%;
+
+    }
+}
+@media screen and (max-width: 310px) {
+    h2.main-block-heading.align-c {
+        font-size: 20px;
+        padding: 20px;
+    }
+    .padding-b-h3{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 25px;
+    }
+}
